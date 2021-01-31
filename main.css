@@ -1,0 +1,96 @@
+body{
+	background-color: #dbcdb4;
+	margin-top: 0px;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	background-color: #cdb4db;
+	margin-top: -30px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	background-color: #cdb4db;
+	text-align: right;
+	font-size: 80%;
+}
+
+h1, h5 {
+	text-align: center;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+button{
+	background-color: #b4c2db;
+	width:30%;
+	height: 30px;
+}
+
+#logo_placeholder {
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	float: right;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+    }
+
+#info_placeholder{
+	margin: 0% 1% 1% 1%;
+	text-align: center;
+	
+}
+
+#contact_info, #about_info{
+	position: relative;
+	display: inline-block;
+	width: 35%;
+	margin: 1% 5% 1% 5%;
+	text-align: left;
+}
+
+h3, h6{
+	
+	margin: 0px 0px 0px 0px;
+}
+
+h6 {
+	font-size: 1.1rem;
+}
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0% 10% 1% 10%;
+	text-align: center;
+}
+
+.gal_photo {
+	position: relative;
+	display: inline-block;
+	width: 32%;
+	height: 32%;
+	margin-bottom: 1%;
+}
+
+.gallery_pic {
+	width: 60%;
+	height: 60%;
+	transition: all 2s;
+}
+
+.gallery_pic:hover {
+	transform: scale(1.2);
+}
