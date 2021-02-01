@@ -1,0 +1,106 @@
+body{
+	background-color: #dbcdb4;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	position: relative;
+	min-height: 120px;
+	background-color: #cdb4db;
+}
+
+footer {
+	position: relative;
+	background-color: #cdb4db;
+	text-align: right;
+	font-size: 80%;
+	width: 100%;
+	min-height: 30px;
+}
+
+section {
+	
+}
+
+h1, h5 {
+	text-align: center;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+
+h3, h6 {
+	
+	margin: 0px 0px 0px 0px;
+}
+
+h6 {
+	font-size: 1.1rem;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+.gal_photo {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 1%;
+}
+
+.gallery_pic {
+	max-width: 300px;
+	transition: all 2s;
+}
+
+.gallery_pic:hover {
+	transform: scale(1.3);
+}
+
+.btn-sm {
+	min-width: 80%;
+	margin-top: 4px;
+	margin-right: 10%;
+	margin-bottom: 8px;
+	background-color: #cdb4db;
+	color: #000000;
+	font-weight: bold;
+}
+
+.price_lbl {
+	padding-top: 8px;
+}
+
+#logo_placeholder {
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	float: right;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+    }
+
+#info_placeholder{
+	margin: 0% 1% 1% 12%;
+}
+
+#contact_info, #about_info{
+	position: relative;
+	margin: 1% 5% 1% 5%;
+	text-align: left;
+}
+
+
+#gallery {
+	margin: 0% 10% 1% 10%;
+	text-align: center;
+}
+
